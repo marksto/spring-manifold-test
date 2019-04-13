@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
 @Controller
-@DisableStringLiteralTemplates // TODO: Must work without it since 'strings' plugin argument is off!
+//@DisableStringLiteralTemplates // TODO: Must work without it since 'strings' plugin argument is off!
 public class GreetingController {
 
     @Value("${app.default.name}")
